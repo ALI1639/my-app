@@ -24,7 +24,7 @@ export default function TextForm(props) {
   const handleCopyClick = () => {
     navigator.clipboard.writeText(text);
     alert("Text copy!")
-    props.showAlert("Text copy ho gya ha", "success")
+    props.showAlert("Text Copy ho gya ha", "success")
 
   }
   const handleExtraSpaces = () => {
