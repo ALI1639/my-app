@@ -51,15 +51,14 @@ function App() {
 
   return (
     <>
-      
-        <Navbar title="Textutils" about="About Us" mode={mode} toggleMode={toggleMode} />
-        <Alert alert={alert} />
-        <div className="container my-3">             
-                <TextForm  heading="Textutils - word counter,character counter,remove extra spaces" showAlert={showAlert} mode={mode} />
-                {/* <About/> */}
-             </div>
-            
-           
+
+      <Navbar title="Textutils" about="About Us" mode={mode} toggleMode={toggleMode} />
+      <Alert alert={alert} />
+      <div className="container my-3">
+        <TextForm heading="Textutils - word counter,character counter,remove extra spaces" showAlert={showAlert} mode={mode} />
+      </div>
+
+
     </>
   );
 }
